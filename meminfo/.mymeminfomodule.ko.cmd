@@ -1,0 +1,1 @@
+cmd_/home/junhan/cCode/EmbededSystemHomework/meminfo/mymeminfomodule.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.8.0-19-generic/scripts/module-common.lds --build-id  -o /home/junhan/cCode/EmbededSystemHomework/meminfo/mymeminfomodule.ko /home/junhan/cCode/EmbededSystemHomework/meminfo/mymeminfomodule.o /home/junhan/cCode/EmbededSystemHomework/meminfo/mymeminfomodule.mod.o

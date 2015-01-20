@@ -1,0 +1,1 @@
+cmd_/home/junhan/cCode/EmbededSystemHomework/cpuinfo/mycpustatmodule.o := ld -m elf_i386   -r -o /home/junhan/cCode/EmbededSystemHomework/cpuinfo/mycpustatmodule.o /home/junhan/cCode/EmbededSystemHomework/cpuinfo/mycpuinfo.o 

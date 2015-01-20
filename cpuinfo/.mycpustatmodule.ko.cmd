@@ -1,0 +1,1 @@
+cmd_/home/junhan/cCode/EmbededSystemHomework/cpuinfo/mycpustatmodule.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.8.0-19-generic/scripts/module-common.lds --build-id  -o /home/junhan/cCode/EmbededSystemHomework/cpuinfo/mycpustatmodule.ko /home/junhan/cCode/EmbededSystemHomework/cpuinfo/mycpustatmodule.o /home/junhan/cCode/EmbededSystemHomework/cpuinfo/mycpustatmodule.mod.o

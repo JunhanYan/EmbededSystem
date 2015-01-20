@@ -1,0 +1,1 @@
+cmd_/home/junhan/cCode/EmbededSystemHomework/meminfo/mymeminfomodule.o := ld -m elf_i386   -r -o /home/junhan/cCode/EmbededSystemHomework/meminfo/mymeminfomodule.o /home/junhan/cCode/EmbededSystemHomework/meminfo/mymeminfo.o 
