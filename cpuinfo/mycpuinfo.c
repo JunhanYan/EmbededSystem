@@ -118,6 +118,7 @@ static int __init proc_stat_init(void)
 
 static void __exit my_exit(void) 
 {  
+    remove_proc_entry("mystat",NULL);
     printk("exit module mymemoryinfo\n");  
 }
 module_init(proc_stat_init);

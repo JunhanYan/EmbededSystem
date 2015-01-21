@@ -24,6 +24,7 @@ __attribute__((section("__versions"))) = {
 	{ 0x96a592f6, "seq_puts" },
 	{ 0xc0a3d105, "find_next_bit" },
 	{ 0x96c7e43b, "seq_printf" },
+	{ 0x29b50afb, "remove_proc_entry" },
 	{ 0x1975faaf, "seq_read" },
 	{ 0xfe7c4287, "nr_cpu_ids" },
 	{ 0x50eedeb8, "printk" },
@@ -44,4 +45,4 @@ __attribute__((section(".modinfo"))) =
 "depends=";
 
 
-MODULE_INFO(srcversion, "14DE91D22418AF0CB887F16");
+MODULE_INFO(srcversion, "5C60F61139AA4C95E86FF8E");

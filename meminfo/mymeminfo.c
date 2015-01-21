@@ -60,6 +60,7 @@ static int __init proc_meminfo_init(void)
 }
 static void __exit my_exit(void) 
 {  
+    remove_proc_entry("mymeminfo",NULL);
     printk("exit module mymemoryinfo\n");  
 }  
 module_init(proc_meminfo_init);

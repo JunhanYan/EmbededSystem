@@ -21,6 +21,7 @@ __attribute__((section("__versions"))) = {
 	{ 0x8f0610f, "single_open" },
 	{ 0xa3a57f57, "single_release" },
 	{ 0x96c7e43b, "seq_printf" },
+	{ 0x29b50afb, "remove_proc_entry" },
 	{ 0x1975faaf, "seq_read" },
 	{ 0x40c7247c, "si_meminfo" },
 	{ 0x50eedeb8, "printk" },
@@ -36,4 +37,4 @@ __attribute__((section(".modinfo"))) =
 "depends=";
 
 
-MODULE_INFO(srcversion, "F94EED44D15AA7F0543A554");
+MODULE_INFO(srcversion, "0462DE54076466E55086698");
